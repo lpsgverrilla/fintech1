@@ -1,0 +1,89 @@
+:root {
+  --primary-green: #2E8B57;
+  --secondary-green: #3CB371;
+  --light-green: #98FB98;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--light-green) 0%, var(--primary-green) 100%);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.login-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo-container img {
+  max-width: 308px;
+  height: auto;
+}
+
+.form-control:focus {
+  border-color: var(--primary-green);
+  box-shadow: 0 0 0 0.25rem rgba(46, 139, 87, 0.25);
+}
+
+.btn-primary {
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+  width: 100%;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: var(--primary-green);
+  color: var(--primary-green);
+}
+
+.secondary-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.secondary-buttons .btn {
+  flex: 1;
+}
+
+.help-circle {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.help-circle:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.password-toggle {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}

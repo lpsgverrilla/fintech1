@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80">
+  <!-- Background shape -->
+  <rect x="10" y="10" width="60" height="60" rx="12" fill="#2563eb"/>
+  
+  <!-- MA letters -->
+  <text x="25" y="55" font-family="Arial" font-weight="bold" font-size="40" fill="white">M</text>
+  <text x="80" y="55" font-family="Arial" font-weight="bold" font-size="32" fill="#2563eb">MeuAssistente</text>
+  
+  <!-- Decorative line representing growth/progress -->
+  <path d="M15 45 Q 25 35, 35 45 T 55 45" stroke="white" stroke-width="3" fill="none"/>
+</svg>
